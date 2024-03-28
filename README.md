@@ -24,7 +24,7 @@ Google Map API：[GoogleCloudPlatform](https://console.cloud.google.com/)
 ### 1. Frontend 設定
 為了存取Google Map的地圖資訊，請先至Google Cloud Platform申請API key，此動作需要先新開專案，到**API及服務**欄位選取**憑證**並建立**API金鑰**，再將**Maps JavaScript API**啟用即可。(詳細步驟可以搜尋"google api key申請")  
 
-之前這個API是有每月的額度上限，但現在改為90天的免費計畫，所以我的已經過期了QQ，有興趣可至Google Cloud Platform查看。  
+之前這個API是有每月的額度上限，但現在改為90天的免費計畫，所以我的已經過期了QQ，有興趣可至Google Cloud Platform查看。(Note: 要綁定信用卡才能用喔！)  
 
 #### #操作步驟
 建立**Node.js開發環境**並設置**npm** (記得安裝LTS版本比較穩定！)，要注意node.js和npm都有加入環境變數中。  
@@ -61,11 +61,17 @@ Google Map API：[GoogleCloudPlatform](https://console.cloud.google.com/)
     npm start
 
 #### #Backend
-切換至`backend`資料夾，於本機啟動伺服器
+切換至`backend`資料夾，並調整至ox環境，於本機啟動伺服器
 
     python app.py runserver
 
 即可開始使用！
+
+### 4. 使用
+請輸入**起點**及**終點**之地點名稱，並於右側滑動條調整**安全係數**的大小，越大表示安全性的權重越高，最後點擊**Calculate Route按鈕**即可獲得路徑。  
+
+實際使用頁面如下圖：
+![Webpage](img.PNG "safeRoute")
 
 **Credit:**  
 清大人工智慧課程期末專題  
