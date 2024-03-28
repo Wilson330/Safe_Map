@@ -70,9 +70,11 @@ Google Map API：[GoogleCloudPlatform](https://console.cloud.google.com/)
 ### 4. 使用
 請輸入**起點**及**終點**之地點名稱，並於右側滑動條調整**安全係數**的大小，越大表示安全性的權重越高，最後點擊**Calculate Route按鈕**即可獲得路徑。  
 
-實際使用頁面如下圖：
+#### 實際使用頁面如下圖：
 ![Webpage](img.PNG "safeRoute")
 
 **Credit:**  
+前端網頁設計及React架構參考自：**trulymittal** 大神的 [google-maps-directions-tutorial](https://github.com/trulymittal/google-maps-directions-tutorial/tree/master)  
+
 清大人工智慧課程期末專題  
-組員：李松鴻、許維珅、林子芸、朱惠瑜
+組員：工科系碩士班 **李松鴻、許維珅、林子芸、朱惠瑜**
